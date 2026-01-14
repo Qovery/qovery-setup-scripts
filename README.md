@@ -24,9 +24,11 @@ These scripts are automatically referenced and used during the Qovery cluster ma
 ## Available Scripts
 
 ### GCP
+
 `scripts/create_credentials_gcp.sh` - Configures permissions and service accounts for GCP
 
 ### Azure
+
 `scripts/create_credentials_azure.sh` - Configures permissions and service principals for Azure
 
 ## Important Warning
@@ -36,6 +38,7 @@ These scripts are automatically referenced and used during the Qovery cluster ma
 This repository is referenced by a DNS record pointing to `get.qovery.com`. The internal GitHub link is used to fetch the scripts during installation.
 
 If you absolutely must rename the repository:
+
 1. Notify the team beforehand
 2. Update the corresponding DNS record
 3. Verify that all reference links are updated
@@ -44,4 +47,4 @@ If you absolutely must rename the repository:
 
 These scripts are automatically downloaded and executed during the installation of a cluster manager via the Qovery console. They are generally not intended to be run manually.
 
-For more information about Qovery installation, please consult the [official documentation](https://docs.qovery.com).
+For more information about Qovery installation, please consult the [official documentation](https://qovery.com/docs).
