@@ -31,10 +31,10 @@ concat_array_to_string() {
 }
 
 permissions=(
-  "secretmanager.secrets.get",
-  "secretmanager.secrets.list",
-  "secretmanager.versions.access",
-  "secretmanager.versions.get",
+  "secretmanager.secrets.get"
+  "secretmanager.secrets.list"
+  "secretmanager.versions.access"
+  "secretmanager.versions.get"
   "secretmanager.versions.list"
 )
 
