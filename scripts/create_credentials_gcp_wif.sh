@@ -39,7 +39,7 @@ if [ "$#" -lt 2 ] || [ "$#" -gt 3 ]; then
 fi
 
 QOVERY_AWS_ACCOUNT_ID="283389881690"
-QOVERY_AWS_PRINCIPAL_NAME="qovery-deployer"
+QOVERY_AWS_PRINCIPAL_NAME="qovery-deployer-federation"
 
 PROJECT_ID="$1"
 SERVICE_ACCOUNT_NAME="$2"
@@ -848,6 +848,8 @@ Store these values in Qovery:
 
 service_account_email=${SERVICE_ACCOUNT_EMAIL}
 workload_identity_provider_resource=${WORKLOAD_IDENTITY_PROVIDER_RESOURCE}
+aws_account_id=${QOVERY_AWS_ACCOUNT_ID}
+aws_principal_name=${QOVERY_AWS_PRINCIPAL_NAME}
 
 No JSON service account key was created.
 EOF
