@@ -480,6 +480,8 @@ permissions=(
     "compute.networks.updatePolicy"
     "compute.networks.use"
     "compute.networks.useExternalIp"
+    "compute.firewalls.delete"
+    "compute.firewalls.list"
     "compute.subnetworks.create"
     "compute.subnetworks.createTagBinding"
     "compute.subnetworks.delete"
