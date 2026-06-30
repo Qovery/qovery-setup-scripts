@@ -606,6 +606,8 @@ permissions=(
     "run.services.listEffectiveTags"
     "run.services.listTagBindings"
     "run.services.update"
+    # When using kms key
+    "cloudkms.cryptoKeys.getIamPolicy"
 )
 
 # ROLE
